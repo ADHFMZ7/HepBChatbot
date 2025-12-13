@@ -146,11 +146,8 @@ def load_knowledge_csv(path: str = "data/hepB_knowledge.csv") -> Dict[str, List[
     csv_path = Path(path)
     buckets: Dict[str, List[Dict[str, str]]] = defaultdict(list)
 
-    if not csv_path.exists():
-        # If file is missing, just fall back to BASE_KNOWLEDGE only
-        return {}
 
-    with csv_path.open(newline="", encoding="utf-8") as f:
+    with csv_path.open(newline="", encoding="utf-8", errors = "replace") as f:
         reader = csv.DictReader(f)
         for row in reader:
             intent = (row.get("intent") or "").strip().lower()

@@ -59,7 +59,7 @@ TEST_DATA = [
     ("is there treatment available for chronic hepatitis b", "treatment"),
     ("what antiviral medicines are used to treat hepatitis b", "treatment"),
     ("can tenofovir medication be used to treat chronic hep b", "treatment"),
-    ("how is chronic hepatitis b usually managed over time", "treatment"),
+    ("Can acute Hep B go away without treatment", "treatment"),
     ("besides medicine, what can I do to manage my hepatitis b", "treatment"),  
 
     # window (5) 
