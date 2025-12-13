@@ -15,7 +15,6 @@ Users should seek professional medical advice for health decisions.
 - Python **3.9+**
 - Installed packages (use pip):
 
-```bash
 pip install -r requirements.txt
 
 
