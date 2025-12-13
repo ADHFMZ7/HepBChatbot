@@ -40,13 +40,13 @@ python -m uvicorn HepBChat_refined:app --reload
 (For interactive API documentation, visit http://127.0.0.1:8000/docs)
 8) Once finished with interacting with chatbot, press ctrl + c in terminal to end the program.
 
-**Purpose of each file/folder**
-'''bash
+## 📁 **Purpose of Each File/Folder**
+
+```text
 HepBChatbot/
 │
 ├── data/
 │   └── Stores structured data files used by the chatbot and evaluation scripts.
-│      
 │
 ├── HepBChat_refined.py
 │   └── Main application file.
@@ -69,9 +69,9 @@ HepBChatbot/
 │   └── Script for testing the chatbot on a benchmark question set and computing
 │      accuracy metrics.
 │
-├── requirements.txt
-│   └── Lists all Python dependencies required to run the chatbot and evaluation scripts.
-│
+└── requirements.txt
+    └── Lists all Python dependencies required to run the chatbot and evaluation scripts.
+
 
 
 
