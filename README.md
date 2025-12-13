@@ -18,7 +18,7 @@ Users should seek professional medical advice for health decisions.
 ```bash
 pip install -r requirements.txt
 
-🚀 **How to Run the Program**
+## 🚀 **How to Run the Program**
 
 1) Download the program files (Download Zip)
 2) Extract the ZIP locally
