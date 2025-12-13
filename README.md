@@ -41,6 +41,7 @@ python -m uvicorn HepBChat_refined:app --reload
 8) Once finished with interacting with chatbot, press ctrl + c in terminal to end the program.
 
 **Purpose of each file/folder**
+'''bash
 HepBChatbot/
 │
 ├── data/
