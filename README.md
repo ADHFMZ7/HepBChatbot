@@ -18,13 +18,14 @@ Users should seek professional medical advice for health decisions.
 ```bash
 pip install -r requirements.txt
 
-## 🚀 **How to Run the Program**
+🚀 **How to Run the Program**
 
 1) Download the program files (Download Zip)
 2) Extract the ZIP locally
 3) Open a terminal inside the extracted folder
 4) Install packages uses pip (pip install -r requirements.txt)
 5) Depending on your system, Python may be invoked as 'python', 'python3' or 'py'. Use the command that works with your machine
+
 # Windows (most common)
 py -m uvicorn HepBChat_refined:app --reload
 
@@ -34,12 +35,12 @@ python3 -m uvicorn HepBChat_refined:app --reload
 # Alternative (some systems)
 python -m uvicorn HepBChat_refined:app --reload
 
-6) run the above code in terminal and server will start locally.
-7) go to http://127.0.0.1:8000 to access the chatbot
+6) Run the above code in terminal and server will start locally.
+7) Go to http://127.0.0.1:8000 to access the chatbot
 (For interactive API documentation, visit http://127.0.0.1:8000/docs)
-8) once finished with interacting with chatbot, press ctrl + c in terminal to end the program.
+8) Once finished with interacting with chatbot, press ctrl + c in terminal to end the program.
 
-
+**Purpose of each file/folder**
 HepBChatbot/
 │
 ├── data/
