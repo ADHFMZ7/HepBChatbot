@@ -46,7 +46,7 @@ HepBChatbot/
 │
 ├── data/
 │   └── Stores structured data files used by the chatbot and evaluation scripts.
-│      (Does not include __pycache__.)
+│      
 │
 ├── HepBChat_refined.py
 │   └── Main application file.
